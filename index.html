@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vmeste</title>
+  <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <span class="logo">Vmeste</span>
+
+      <nav class="navigation">
+        <ul class="menu">
+
+          <li class="menu-elemen">
+            <a class="menu-element__link" href="">Главная</a>
+          </li>
+          <li class="menu-elemen">
+            <a class="menu-element__link" href="#about-us">О нас</a>
+          </li>
+          <li class="menu-elemen">
+            <a class="menu-element__link" href="#events">Что вас ждёт?</a>
+          </li>
+          <li class="menu-elemen">
+            <a class="menu-element__link" href="#why">Почему мы?</a>
+          </li>
+          <li class="menu-elemen">
+            <a class="menu-element__link" href="#reviews">Отзывы</a>
+          </li>
+
+        </ul>
+      </nav>
+      <span class="city">г. Владивосток</span>
+
+    </div>
+
+    <div class="content">
+      <div class="header-center">
+        <p class=description>Давайте проведём время</p>
+        <h1 class="name">ВМЕСТЕ</h1>
+      </div>
+
+    </header>
+
+    <section class="about-us" id="about-us">
+      <div class="left">
+        <img src="images\pic.jpg" class="about-us__image">
+      </div>
+
+      <div class="right">
+        <h2 class="about-us__title">О нас</h2>
+        <p class="about-us__description">Вас приветствует команда Vmeste из Владивостока!</p>
+        <p class="about-us__description">Мы занимаемся организацией мероприятий, нацеленных на знакомство с новыми людьми, творческое развитие и хорошее времяпрепровождение.</p>
+        <p class="about-us__description">Наша команда создаёт незабываемые впечатления через креативные подходы.</p>
+        <p class="about-us__description">Ниже вы можете ознакомиться с перечнем мероприятий, организацией которых занимается наша команда.</p>
+        <p class="about-us__description">Присоединяйтесь!</p>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+      <h2 class="second-title">Что вас ждёт?</h2>
+
+      <div class="events__list">
+        <div class="event-block">
+          <img src="images\event1.jpg" class="event-image">
+          <p class="event-title">Пикники</p>
+          <p class="event-text">Это отличная возможность найти новые знакомства.</p>
+        </div>
+
+        <div class="event-block">
+          <img src="images\event2.jpg" class="event-image">
+          <p class="event-title">Книжный клуб</p>
+          <p class="event-text">Команда организует встречи людей интересующихся книгами.</p>
+          <p class="event-text">Здесь вы сможете окунуться в атмосферу произведения в процессе чтения и активно поучаствовать в обсуждении после.</p>
+        </div>
+
+        <div class="event-block">
+          <img src="images\event3.jpg" class="event-image">
+          <p class="event-title">Гончарное дело</p>
+          <p class="event-text">Это не только место творчества, но и место обучения и вдохновения!</p>
+          <p class="event-text">Возможно вы найдёте новое увлечение и уж точно найдёте единомышленников.</p>
+        </div>
+
+        <div class="event-block">
+          <img src="images\event4.jpg" class="event-image">
+          <p class="event-title">Походы</p>
+          <p class="event-text">Палаточные лагеря в горах, лесах, на берегу моря.</p>
+          <p class="event-text">Классный отдых на природе. Можно насладиться свежим воздухом, пением птиц, вечерним костром.</p>
+        </div>
+
+        <div class="event-block">
+          <img src="images\event5.jpg" class="event-image">
+          <p class="event-title">Конные прогулки</p>
+          <p class="event-text">Здесь вы не только хорошо проведете время, но и научитесь взаимодействовать с лошадьми.</p>
+          <p class="event-text">Обещаем, что эти приключения запомнятся очень надолго.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="left_2">
+        <h2 class="why-us__title">Почему мы?</h2>
+        <div class="why__list">
+          <p class="why-us__description">Мы воплощаем мечты в реальность!</p>
+          <p class="why-us__description">Каждый найдёт дело по душе!</p>
+          <p class="why-us__description">Много новых знакомств!</p>
+          <p class="why-us__description">Мы дарим невероятные эмоции!</p>
+        </div>
+      </div>
+      <div class="right_2">
+        <img src="images\pic2.jpg" class="why-us__image">
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h2 class="second-title">Oтзывы</h2>
+      <div class="comments" id="comments">
+      </div>
+      <div class="comment-box">
+        <p class="reviews-text">Ниже вы можете оставить свои комментарии, отзывы и предложения.</p><br>
+        <input type="text" id="name-input" placeholder="Ваше имя">
+        <input type="text" id="comment-input" placeholder="Введите комментарий">
+        <button onclick="postComment()">Отправить</button>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <p class="footer-text">Для связи используйте:</p>
+      <ul class="socials">
+        <li class="social-element">
+          <a href="https://vk.com/khudia.alina" class="social-element__link">VK</a>
+        </li>
+        <li class="social-element">
+          <a href="https://t.me/khuudia" class="social-element__link">TG</a>
+        </li>
+      </ul>
+
+      <p class="footer-about">
+        &copy;&nbsp;Худякова&nbsp;Алина
+      </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    </div>
+
+
+</body>
+</html>

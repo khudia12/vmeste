@@ -1,0 +1,263 @@
+a {
+  text-decoration: none;
+  transition: opacity .25s ease;
+}
+a:hover {
+  opacity: 40%;
+}
+
+/*header*/
+
+.header {
+  height: 100vh;
+  background-image: url('../images/background_header.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 60px;
+  background: rgb(250, 240, 230);
+}
+.logo {
+  font-size: 32px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-element {
+  margin-right: 50px;
+}
+.menu-element:last-child {
+  margin-right: 0;
+}
+.menu-element__link {
+  color: #000000;
+  margin-right: 20px;
+  font-size: 26px;
+}
+.city {
+  font-size: 26px;
+}
+.content {
+    margin-top: 60px; /* Убедитесь, что этот отступ соответствует высоте вашего меню */
+    padding: 20px;
+}
+.header-center {
+  color: #FFFFFF;
+  margin-top: 150px;
+  margin-left: 850px;
+  font-size: 72px;
+}
+
+/**/
+
+.about-us {
+  display: flex;
+  align-items: center;
+  background: #FAF0E6;
+}
+.about-us .left {
+  flex: 1 1 40%;
+  padding-left: 100px;
+  padding-right: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about-us .right {
+  flex: 1 1 60%;
+  padding-right: 100px;
+}
+.about-us__image {
+  width: 350px;
+  margin-left: auto;
+  border-radius: 10px;
+}
+.about-us__title {
+  font-size: 72px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.about-us__description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.about-us__description:last-child {
+  margin-bottom: 70px;
+}
+
+/**/
+
+.events {
+  background: rgb(185, 210, 230);
+  padding: 40px 20px;
+}
+.second-title {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.events__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.event-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 30px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  background: #FAF0E6;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+}
+.event-image {
+  width: 350px;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.event-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+.event-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/**/
+
+.why {
+  display: flex;
+  align-items: center;
+  background: #FAF0E6;
+  padding: 120px 120px;
+}
+.why .left_2 {
+  flex: 1 1 60%;
+  padding-left: 70px;
+}
+.why .right_2 {
+  flex: 1 1 40%;
+  padding-right: 20px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.why-us__image {
+  width: 500px;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.why-us__title {
+  font-size: 72px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.why-us__description {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.why-us__description:last-child {
+  margin-bottom: 70px;
+}
+
+
+/**/
+
+.reviews {
+  background: rgb(185, 210, 230);
+  padding: 40px 120px;
+}
+.comment-box {
+  margin: 40px 0;
+}
+.reviews-text {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.comment-box input{
+  background: #FAF0E6;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.comment-box button {
+  display: inline-block;
+  padding: 15px 25px;
+  background: #FAF0E6;
+  font-size: 26px;
+  color: black;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.comment-box button:hover {
+  background-color: #FFA07A;
+}
+.comments {
+  margin-top: 40px;
+}
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #808080;
+  border-radius: 4px;
+  background-color: #FAF0E6;
+}
+.comment strong {
+  display: block;
+  margin-bottom: 5px;
+}
+.comment time {
+    font-size: 0.9em;
+    color: #808080;
+}
+
+/**/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  background: #FAF0E6;
+}
+.footer-text {
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.socials {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.social-element__link {
+  display: inline-flex;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+}
